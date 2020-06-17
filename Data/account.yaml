@@ -1,0 +1,18 @@
+testaccount:
+  user1:
+    phone: '17375509341'
+    passwd: ''
+    assert: '密码'
+  user2:
+    phone: ''
+    passwd: 111111
+    assert: '错误'
+  user3:
+    phone: '*(&^*&'
+    passwd: '&*&*('
+    assert: '错误'
+rightaccount:
+  user1:
+    phone: '17375509341'
+    passwd: 111111
+    assert: '成功'
